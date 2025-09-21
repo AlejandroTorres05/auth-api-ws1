@@ -27,7 +27,7 @@ WORKDIR /root/
 
 COPY --from=builder /app/auth-api .
 
-EXPOSE 8000
+EXPOSE 80
 
 #ENV JWT_SECRET=PRFT
 #ENV AUTH_API_PORT=8000
